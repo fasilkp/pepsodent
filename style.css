@@ -1,0 +1,336 @@
+:root {
+  --red: #e70033;
+  --blue: #002073;
+}
+body {
+  background-color: #f6f7f7;
+}
+.logo img {
+  width: 150px;
+}
+
+.header {
+  padding: 20px 0px;
+}
+.banner {
+  height: 60vh;
+  background-image: url(https://www.pepsodent.in/sk-eu/content/dam/brands/…3780288-gumcare-banner.jpg.rendition.1440.600.jpg);
+}
+.nav-logo img {
+  width: 150px;
+}
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-right-items {
+  color: var(--blue);
+  cursor: pointer;
+}
+.nav-right-items i {
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: 0.2s;
+}
+.nav-right-content {
+  display: flex;
+  gap: 30px;
+}
+nav {
+  height: 80px;
+  background-color: #fff;
+  z-index: 100;
+}
+.nav-hover-box-col {
+  max-width: 200px;
+}
+.nav-hover {
+  z-index: 99;
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+  color: var(--blue);
+  padding: 20px 0px;
+  margin-top: 0px;
+  display: none;
+}
+.product-col{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.nav-right-items:hover .nav-hover {
+  width: 50vw;
+}
+.banner {
+  background-image: url(https://www.pepsodent.in/sk-eu/content/dam/brands/smile/global_use/43780288-gumcare-banner.jpg.rendition.1440.600.jpg);
+  height: 65vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 50% 10%;
+  border-bottom-left-radius: 50% 10%;
+}
+.banner-content {
+  padding: 20px;
+}
+
+.sec-2 {
+  margin-top: 50px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.384);
+}
+.sec-2-img {
+  background-image: url(https://www.pepsodent.in/sk-eu/content/dam/brands/smile/global_use/52488556-landing-page-image-dentist-1600x900-ecrgb.jpg.rendition.1050.591.jpg);
+  background-size: cover;
+  height: 400px;
+}
+.sec-2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  gap: 15px;
+}
+.sec-2-content button,
+.view-more-btn button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: var(--red);
+  border: none;
+  outline: none;
+  color: white;
+  transition: .5s;
+}
+.sec-2-content button:hover,
+.view-more-btn button:hover{
+    border-radius: 50px 0px 50px 0px;
+    background-color: #9a0122;
+}
+.sec-2 h1 {
+  color: #e70033;
+}
+.sec-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.sec-3 h3 {
+  color: var(--blue);
+  font-weight: 570;
+}
+.sec-3-collection {
+  margin-top: 50px;
+}
+.sec-3-item-img img {
+  max-width: 100%;
+}
+.sec-3-item {
+  background-color: #fff;
+  min-width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.362);
+}
+.sce-3-item-name {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: var(--blue);
+}
+.sce-3-item-name:hover {
+  background-color: #00217356;
+}
+.sce-3-item-name b {
+  font-size: 1.1rem;
+}
+.sec-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.sec-4 > p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  text-align: center;
+}
+.sec-4 > h3 {
+  color: var(--blue);
+  font-weight: 570;
+}
+.sec-4-item-container {
+  padding: 10px;
+}
+.sec-4-item {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.362);
+}
+.sec-4 img {
+  max-width: 100%;
+  min-width: 100%;
+}
+.sec-4-item-content {
+  background-color: #fff;
+  padding: 20px;
+}
+.sec-4-item-content h5 {
+  color: var(--blue);
+  font-weight: 570;
+}
+.view-more-btn {
+  align-items: center;
+  margin-top: 50px;
+}
+footer {
+  background-color: var(--blue);
+  margin-top: 50px;
+  color: white;
+  padding: 20px 50px;
+}
+footer a {
+  color: white;
+}
+li {
+  list-style: none;
+}
+.footer-col span {
+  padding: 5px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.fb {
+  background-color: #3b5997;
+}
+.tw {
+  background-color: #55adec;
+}
+.yt {
+  background-color: #f71d0f;
+}
+.footer-img {
+  width: 100px;
+}
+.footer-col {
+  margin-top: 30px;
+}
+.footer {
+  width: 100vw;
+}
+.footer-col select{
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    box-shadow: none;
+}
+.footer-col select option{
+    color: black;
+}
+
+@media (min-width: 1250px) {
+  .banner-content h1 {
+    color: var(--red);
+    font-weight: 570;
+    border-radius: 20px;
+  }
+  .nav-right-items:hover {
+    color: red;
+  }
+  .nav-right-items:hover i {
+    transform: rotate(180deg);
+  }
+  .banner-content {
+    padding: 30px;
+    position: absolute;
+    left: 150px;
+    top: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.384);
+  }
+}
+
+@media (max-width:968px){
+    .nav-hover {
+        display: none;
+        position: fixed;
+        top: 70px;
+      }
+      .nav-hover .nav-hover-box-col {
+        position: relative;
+        left: -100px;
+        
+      }
+      
+      .nav-hover-box-col h5 {
+        margin-bottom: 20px;
+      }
+      .nav-logo img {
+        width: 120px;
+      }
+      .nav-logo {
+        width: 200px;
+      }
+      .nav-menu-icon i {
+        font-size: 1.8rem;
+        color: var(--blue);
+        font-weight: 550;
+        margin-left: 10px;
+      }
+      .nav-menu-row {
+        background-color: #fff;
+        padding: 20px 0px;
+        position: fixed;
+        top: 70px;
+        left: 1000px;
+        transition: 0.2s;
+      }
+      .menu-container {
+        background-color: #fff;
+        height: 40px;
+      }
+      .nav-menu-row-content {
+        position: relative;
+        left: -170px;
+      }
+      .nav-right-content {
+        gap: 15px;
+      }
+      .footer-col li {
+        margin-top: 20px;
+      }
+      .nav-right-items i {
+        transform: rotate(-90deg);
+      }
+      .product-col{
+        flex-direction: column;
+      }
+}
+@media (max-width: 600px) {
+    .banner {
+      height: 130px;
+    }
+    .banner-content h1 {
+      color: var(--blue);
+    }
+    .sec-2-img {
+      height: 200px;
+    }
+    .sec-2 {
+      max-width: 90%;
+      border-radius: 10px;
+    }
+    .sec-2 button {
+      width: 100%;
+    }
+  
+  }
