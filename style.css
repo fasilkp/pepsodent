@@ -260,6 +260,12 @@ li {
 }
 
 @media (max-width:968px){
+  .banner {
+    height: 200px;
+  }
+  .banner-content h1 {
+    color: var(--blue);
+  }
     .nav-hover {
         display: none;
         position: fixed;
